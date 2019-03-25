@@ -17,9 +17,13 @@ public class Carro {
     String largura;
     String peso;
     
-    
+    public void mostrar(){
+        System.out.println("O carro " + nome +"\n de marca: "+ marca +"\n da cor: " + cor +"\n frabricado em: " 
+                + fabricacao +"\n de largura: " + largura +"\n e peso: " + peso );
+     }
+
     public void acelerar(){
-       System.out.println("Carro acelerando...");
+        System.out.println(" está acelerando...");
     }
     
     public void acionarTracao(){
